@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Vincent Nguyen</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- css -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet" media="screen">
+  <link href="color/default.css" rel="stylesheet" media="screen">
+  <link rel="icon" href="./img/dev-icon.png" type="image/x-icon" />
+</head>
+
+<body>
+  <!-- nav -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <span class="current"><a class="btn btn-theme nav-buttons" href="#intro">Vincent Nguyen</a></span>
+      <span><a class="btn btn-theme nav-buttons" href="#portfolio">Projects</a></span>
+      <span><a class="btn btn-theme nav-buttons" href="#about">Resume</a></span>
+      <span><a class="btn btn-theme nav-buttons" href="#contact">Contact</a></span>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- intro -->
+  <div id="intro">
+    <div class="intro-text">
+      <div class="container">
+        <div class="col-md-12">
+          <div id="rotator">
+            <h1><span class="1strotate">Vincent Nguyen</span></h1>
+            <div class="line-spacer"></div>
+            <p><span class="2ndrotate">Full Stack Developer, Software Engineer, MERN Stack</span>
+            </p>
+            <div class="arrow bounce">
+              <a class="fa fa-chevron-down style mt-5" href="#portfolio"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- work -->
+  <section id="portfolio" class="home-section bg-gray">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="section-heading text-center">
+          <h2 class="lead wow fadeInUp" data-wow-delay="0.1s">Projects</h2>
+          <div class="heading-line"></div>
+          <h3 class="lead wow fadeInDown" data-wow-delay="0.1s">Click on a project for more details!</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+
+        <ul id="og-grid" class="og-grid">
+
+          <!-- Poke Match -->
+          <li>
+            <a href="http://ec2-3-17-130-22.us-east-2.compute.amazonaws.com/" target="_blank"
+              data-largesrc="img/works/reactjs_500x500.jpg" data-title="Google Books Search!"
+              data-description="Google Books Searcher. Find and manage books using Google Books API. (React, Express, Node, MongoDB">
+              <img src="img/works/thumbs/reactjs_250x250.jpg" alt="React" />
+            </a>
+          </li>
+
+          <!-- New Deals -->
+          <li>
+            <a href="https://limitless-bayou-66969.herokuapp.com" target="_blank"
+              data-largesrc="img/works/materialize-icon_500x500.png" data-title="Deals Webscraper"
+              data-description="A Slick Deals webscraper that retrieves information from their web page. Information is saved in MongoDB using Mongoose. (MongoDB, Materialize-UI)">
+              <img src="img/works/thumbs/materialize-icon_250x250.png" alt="Materialize" />
+            </a>
+          </li>
+
+          <!-- vision -->
+          <li>
+            <a href="https://vpvnguyen.github.io/project-1/" target="_blank" data-largesrc="img/works/seo-500x500.png"
+              data-title="Vision"
+              data-description="Built on Google Cloud Machine Learning / AI Platform. Upload an image to get trending hashtags and SEO from image. (Google Vision API, Google Firebase)">
+              <img src="img/works/thumbs/google-cloud-service-250x250.jpg" alt="Vision" />
+            </a>
+          </li>
+          <!-- giphy -->
+          <li>
+            <a href="https://vpvnguyen.github.io/giphy-api/" target="_blank"
+              data-largesrc="img/works/nyan-cat-500x500.jpg" data-title="Gif Generator!"
+              data-description="Search through thousands of gifs. Create and save your own search topics using local persistence. Download and send your favorite gifs! (Giphy API, HTML5, CSS3, JavaScript)">
+              <img src="img/works/thumbs/giphy-logo-250x250.png" alt="Gif Generator" />
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- parallax 1 -->
+  <section id="parallax1" class="home-section parallax" data-stellar-background-ratio="0.5">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="color-light">
+          <h2 class="wow fadeInUp" data-wow-delay="0.1s">
+            TECHNOLOGIES
+          </h2>
+          <div class="line-spacer" data-wow-delay="0.2s"></div>
+          <h4 class="lead wow bounceInLeft" data-wow-delay="0.3s">React · HTML · CSS</h4>
+          <h4 class="lead wow bounceInLeft" data-wow-delay="0.4s">Express · Node · JavaScript</h4>
+          <h4 class="lead wow bounceInLeft" data-wow-delay="0.5s">MongoDB · MySQL · PostgreSQL</h4>
+          <h4 class="lead wow bounceInLeft" data-wow-delay="0.6s">AWS EC2</h4>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- about -->
+  <section id="about" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2 class="lead wow fadeInUp" data-wow-delay="0.5s">Hello!</h2>
+            <div class="heading-line"></div>
+            <h6 class="lead wow fadeInDown" data-wow-delay="0.5s">
+              Let's work together! Click on my
+              resume below!
+            </h6>
+            <a href="./resume.html" target="_blank" class="btn btn-theme">Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax 2 -->
+  <section id="parallax2" class="bottom-section parallax" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        </div>
+      </div>
+    </div>
+
+    <!-- my info -->
+    <section id="contact" class="bottom-section bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2 class="lead wow fadeInUp" data-wow-delay="0.5ss">Let's Connect!</h2>
+              <div class="heading-line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-2">
+            <div class="contact-widget wow bounceInLeft">
+              <i class="fa fa-map-marker fa-4x"></i>
+              <h5>Vincent Nguyen</h5>
+              <p>
+                Orange County, CA
+                <br />
+                U.S. Citizen
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-2 pb-2">
+            <div class="wow fadeInDown" data-wow-delay="0.1s">
+              <h5>Social Media</h5>
+              <ul class="social-network">
+                <li><a href="https://github.com/vpvnguyen" target="_blank">
+                    <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                    </span></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/vincent-nguyen-4983b017a/" target="_blank">
+                    <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                    </span></a>
+                </li>
+                <li><a href="https://twitter.com/Vincent33567189" target="_blank">
+                    <span class="fa-stack fa-2x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-widget wow bounceInRight">
+              <i class="fa fa-envelope fa-4x"></i>
+              <h5>Email</h5>
+              <p>
+                vpvnguyen@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"> 
+          <p>Copyright &copy; Vincent Nguyen. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- js -->
+  <script src="js/jquery.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/mb.bgndGallery.js"></script>
+  <script src="js/mb.bgndGallery.effects.js"></script>
+  <script src="js/jquery.simple-text-rotator.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/stellar.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/custom.scrollBar.js"></script>
+
+</body>
+
+</html>
