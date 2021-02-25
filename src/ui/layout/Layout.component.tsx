@@ -2,7 +2,7 @@ import React from "react";
 
 const style: any = {
   layoutComponentContainer: {
-    margin: "3rem"
+    padding: "3rem"
   }
 };
 
